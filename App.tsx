@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { StripeTerminalProvider } from '@stripe/stripe-terminal-react-native';
 import Toast from 'react-native-toast-message';
 import * as Sentry from '@sentry/react-native';
-import AppContext from './src/AppContext.tsx';
+import AppContext from './src/AppContext.tsx'
 import {
   AuthNavigation,
   HomeNavigation,
